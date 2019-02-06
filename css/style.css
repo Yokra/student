@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  font-family: "Abril Fatface", cursive;
+  font-size: 25px;
+  padding: 70px;
+  text-align: center;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  padding: 25px;
+  border-radius: 2px;
+  background-color: rgba(177, 171, 171, 0.5);
+}
+
+div h1,
+div h2 {
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+}
